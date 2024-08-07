@@ -13,9 +13,25 @@
         "rows": ["B5", "B4", "E6", "D7", "C6"]
     },
     "split": {
-        "soft_serial_pin": "D2"
+        "soft_serial_pin": "D2",
+        "matrix_pins": {
+            "right": {
+                "cols": ["B6", "B2", "B3", "B1", "F7", "F6", "F5"],
+                "rows": ["B5", "B4", "E6", "D7", "C6"]
+            }
+        }
     },
 
+    "features": {
+        "backlight": false,
+        "bootmagic": true,
+        "command": true,
+        "console": false,
+        "extrakey": true,
+        "mousekey": false,
+        "nkro": false,
+        "rgblight": false
+    },
     "development_board": "promicro",
     "layouts": {
         "LAYOUT": {

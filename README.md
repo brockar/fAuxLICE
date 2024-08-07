@@ -59,3 +59,7 @@ More info can be found in [this blog post](https://ramonimbao.github.io/alice-li
 ## License
 
 This project is licensed under the MIT license. See the `LICENSE.md` for more details.
+
+todo:
+
+- bajar hueco usbc
