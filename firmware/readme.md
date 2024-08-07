@@ -2,8 +2,10 @@
 
 An ergonomic 60% keyboard.
 
--   Keyboard Maintainer:
--   Hardware Supported:
+[KLE](http://www.keyboard-layout-editor.com/#/gists/98ec1e1db03cefa96546236b10959afc).
+
+-   Keyboard Maintainer: brockar
+-   Hardware Supported: nadie
 -   Hardware Availability: hacetelo
 
 Make example for this keyboard (after setting up your build environment):
