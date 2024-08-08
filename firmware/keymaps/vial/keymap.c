@@ -5,11 +5,11 @@
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 	[0] = LAYOUT(
-		KC_A, KC_A, KC_A, KC_E, KC_E, KC_E, KC_E, KC_E, KC_E, KC_E, KC_E, KC_E, KC_E, KC_E, KC_E,
-		QK_BOOT, KC_E, KC_E, KC_E, KC_E, KC_E, KC_E, KC_E, KC_E, KC_E, KC_E, KC_E, KC_E, KC_E,
-		KC_E, KC_E, KC_E, KC_E, KC_E, KC_E, KC_E, KC_E, KC_E, KC_E, KC_E, KC_E, KC_E,
-		QK_RBT, KC_E, KC_E, KC_E, KC_E, KC_E, KC_E, KC_E, KC_E, KC_E, KC_E, KC_E, KC_E,
-		KC_E, KC_E, KC_E, KC_E, KC_E, KC_E, KC_E, KC_E, KC_E
+		KC_A, KC_A, KC_A, KC_E, KC_E, KC_E, KC_E, KC_E, KC_E, KC_E, KC_E, KC_E, KC_E, KC_E, QK_BOOT,
+		QK_BOOT, KC_E, KC_E, KC_E, KC_E, KC_E, KC_E, KC_E, KC_E, KC_E, KC_E, KC_E, KC_E, QK_RBT,
+		QK_BOOT, KC_E, KC_E, KC_E, KC_E, KC_E, KC_E, KC_E, KC_E, KC_E, KC_E, KC_E, QK_BOOT,
+		QK_RBT, KC_E, KC_E, KC_E, KC_E, KC_E, KC_E, KC_E, KC_E, KC_E, KC_E, KC_E, QK_BOOT,
+		QK_BOOT, KC_E, KC_E, KC_E, KC_E, KC_E, KC_E, KC_E, KC_E
 	),
 
 	[1] = LAYOUT(
