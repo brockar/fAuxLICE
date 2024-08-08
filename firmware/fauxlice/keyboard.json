@@ -2,37 +2,37 @@
     "manufacturer": "brockar",
     "keyboard_name": "fAuxLICE",
     "maintainer": "brockar",
+    "development_board": "promicro",
     "usb": {
         "vid": "0xFEED",
         "pid": "0x0001",
-        "device_version": "0.0.1"
+        "device_version": "1.1.1"
     },
+    "features": {
+        "bootmagic": true,
+        "command": false,
+        "console": false,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true
+    },
+
     "diode_direction": "COL2ROW",
     "matrix_pins": {
-        "cols": ["B6", "B2", "B3", "B1", "F7", "F6", "F5"],
-        "rows": ["B5", "B4", "E6", "D7", "C6"]
+        "rows": ["B5", "B4", "E6", "D7", "C6"],
+        "cols": ["B6", "B2", "B3", "B1", "F7", "F6", "F5"]
     },
+
     "split": {
-        "soft_serial_pin": "D2",
+        "soft_serial_pin": "D0",
         "matrix_pins": {
             "right": {
-                "cols": ["B6", "B2", "B3", "B1", "F7", "F6", "F5"],
-                "rows": ["B5", "B4", "E6", "D7", "C6"]
+                "rows": ["B5", "B4", "E6", "D7", "C6"],
+                "cols": ["F5", "F6", "F7", "B1", "B3", "B2", "B6"]
             }
         }
     },
 
-    "features": {
-        "backlight": false,
-        "bootmagic": true,
-        "command": true,
-        "console": false,
-        "extrakey": true,
-        "mousekey": false,
-        "nkro": false,
-        "rgblight": false
-    },
-    "development_board": "promicro",
     "layouts": {
         "LAYOUT": {
             "layout": [
@@ -57,7 +57,7 @@
                 { "matrix": [1, 3], "x": 3.5, "y": 1 },
                 { "matrix": [1, 4], "x": 4.5, "y": 1 },
                 { "matrix": [1, 5], "x": 5.5, "y": 1 },
-                { "matrix": [1, 6], "x": 6.5, "y": 1 },
+                { "matrix": [1, 6], "x": 8.5, "y": 1 },
                 { "matrix": [6, 0], "x": 9.5, "y": 1 },
                 { "matrix": [6, 1], "x": 10.5, "y": 1 },
                 { "matrix": [6, 2], "x": 11.5, "y": 1 },
@@ -71,7 +71,7 @@
                 { "matrix": [2, 3], "x": 3.75, "y": 2 },
                 { "matrix": [2, 4], "x": 4.75, "y": 2 },
                 { "matrix": [2, 5], "x": 5.75, "y": 2 },
-                { "matrix": [2, 6], "x": 6.75, "y": 2 },
+                { "matrix": [2, 6], "x": 8.75, "y": 2 },
                 { "matrix": [7, 0], "x": 9.75, "y": 2 },
                 { "matrix": [7, 1], "x": 10.75, "y": 2 },
                 { "matrix": [7, 2], "x": 11.75, "y": 2 },
@@ -93,18 +93,13 @@
                 { "matrix": [8, 6], "w": 1.25, "x": 15.75, "y": 3 },
                 { "matrix": [4, 0], "w": 1.25, "x": 0, "y": 4 },
                 { "matrix": [4, 1], "w": 1.25, "x": 1.25, "y": 4 },
-                { "matrix": [4, 3], "x": 3.9699999999999998, "y": 4 },
-                { "matrix": [4, 5], "w": 2.75, "x": 4.97, "y": 4 },
-                { "matrix": [9, 0], "w": 2.25, "x": 9.719999999999999, "y": 4 },
-                { "matrix": [9, 2], "x": 11.969999999999999, "y": 4 },
-                { "matrix": [9, 4], "x": 13.719999999999999, "y": 4 },
-                {
-                    "matrix": [9, 5],
-                    "w": 1.25,
-                    "x": 14.719999999999999,
-                    "y": 4
-                },
-                { "matrix": [9, 6], "x": 15.969999999999999, "y": 4 }
+                { "matrix": [4, 3], "x": 3, "y": 4 },
+                { "matrix": [4, 5], "w": 2.75, "x": 4, "y": 4 },
+                { "matrix": [9, 0], "w": 2.25, "x": 9.75, "y": 4 },
+                { "matrix": [9, 2], "x": 12, "y": 4 },
+                { "matrix": [9, 4], "x": 13.75, "y": 4 },
+                { "matrix": [9, 5], "w": 1.25, "x": 14.75, "y": 4 },
+                { "matrix": [9, 6], "x": 16, "y": 4 }
             ]
         }
     }
