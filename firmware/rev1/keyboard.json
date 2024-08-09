@@ -1,39 +1,9 @@
 {
-    "manufacturer": "brockar",
-    "keyboard_name": "fAuxLICE",
-    "maintainer": "brockar",
-    "development_board": "promicro",
-    "usb": {
-        "vid": "0xFEED",
-        "pid": "0x0001",
-        "device_version": "1.1.1"
-    },
-    "features": {
-        "bootmagic": true,
-        "command": false,
-        "console": false,
-        "extrakey": true,
-        "mousekey": true,
-        "nkro": true
-    },
-
-    "diode_direction": "COL2ROW",
-    "matrix_pins": {
-        "rows": ["B5", "B4", "E6", "D7", "C6"],
-        "cols": ["B6", "B2", "B3", "B1", "F7", "F6", "F5"]
-    },
-
     "split": {
-        "soft_serial_pin": "D0",
-        "enabled": true,
-        "matrix_pins": {
-            "right": {
-                "rows": ["B5", "B4", "E6", "D7", "C6"],
-                "cols": ["F5", "F6", "F7", "B1", "B3", "B2", "B6"]
-            }
-        }
+        "soft_serial_pin": "D0"
     },
-
+    "development_board": "promicro",
+    
     "layouts": {
         "LAYOUT": {
             "layout": [
@@ -44,6 +14,7 @@
                 { "matrix": [0, 4], "x": 4, "y": 0 },
                 { "matrix": [0, 5], "x": 5, "y": 0 },
                 { "matrix": [0, 6], "x": 6, "y": 0 },
+
                 { "matrix": [5, 0], "x": 9, "y": 0 },
                 { "matrix": [5, 1], "x": 10, "y": 0 },
                 { "matrix": [5, 2], "x": 11, "y": 0 },
@@ -52,6 +23,7 @@
                 { "matrix": [5, 5], "x": 14, "y": 0 },
                 { "matrix": [7, 5], "x": 15, "y": 0 },
                 { "matrix": [5, 6], "x": 16, "y": 0 },
+
                 { "matrix": [1, 0], "w": 1.5, "x": 0, "y": 1 },
                 { "matrix": [1, 1], "x": 1.5, "y": 1 },
                 { "matrix": [1, 2], "x": 2.5, "y": 1 },
@@ -59,6 +31,7 @@
                 { "matrix": [1, 4], "x": 4.5, "y": 1 },
                 { "matrix": [1, 5], "x": 5.5, "y": 1 },
                 { "matrix": [1, 6], "x": 8.5, "y": 1 },
+
                 { "matrix": [6, 0], "x": 9.5, "y": 1 },
                 { "matrix": [6, 1], "x": 10.5, "y": 1 },
                 { "matrix": [6, 2], "x": 11.5, "y": 1 },
@@ -66,6 +39,7 @@
                 { "matrix": [6, 4], "x": 13.5, "y": 1 },
                 { "matrix": [6, 5], "x": 14.5, "y": 1 },
                 { "matrix": [6, 6], "w": 1.5, "x": 15.5, "y": 1 },
+
                 { "matrix": [2, 0], "w": 1.75, "x": 0, "y": 2 },
                 { "matrix": [2, 1], "x": 1.75, "y": 2 },
                 { "matrix": [2, 2], "x": 2.75, "y": 2 },
@@ -73,18 +47,21 @@
                 { "matrix": [2, 4], "x": 4.75, "y": 2 },
                 { "matrix": [2, 5], "x": 5.75, "y": 2 },
                 { "matrix": [2, 6], "x": 8.75, "y": 2 },
+
                 { "matrix": [7, 0], "x": 9.75, "y": 2 },
                 { "matrix": [7, 1], "x": 10.75, "y": 2 },
                 { "matrix": [7, 2], "x": 11.75, "y": 2 },
                 { "matrix": [7, 3], "x": 12.75, "y": 2 },
                 { "matrix": [7, 4], "x": 13.75, "y": 2 },
                 { "matrix": [7, 6], "w": 2.25, "x": 14.75, "y": 2 },
+
                 { "matrix": [3, 0], "w": 2, "x": 0, "y": 3 },
                 { "matrix": [3, 2], "x": 2, "y": 3 },
                 { "matrix": [3, 3], "x": 3, "y": 3 },
                 { "matrix": [3, 4], "x": 4, "y": 3 },
                 { "matrix": [3, 5], "x": 5, "y": 3 },
                 { "matrix": [3, 6], "x": 6, "y": 3 },
+
                 { "matrix": [8, 0], "x": 9.5, "y": 3 },
                 { "matrix": [8, 1], "x": 10.5, "y": 3 },
                 { "matrix": [8, 2], "x": 11.5, "y": 3 },
@@ -92,10 +69,12 @@
                 { "matrix": [8, 4], "x": 13.5, "y": 3 },
                 { "matrix": [8, 5], "w": 1.25, "x": 14.5, "y": 3 },
                 { "matrix": [8, 6], "w": 1.25, "x": 15.75, "y": 3 },
+
                 { "matrix": [4, 0], "w": 1.25, "x": 0, "y": 4 },
                 { "matrix": [4, 1], "w": 1.25, "x": 1.25, "y": 4 },
                 { "matrix": [4, 3], "x": 3, "y": 4 },
                 { "matrix": [4, 5], "w": 2.75, "x": 4, "y": 4 },
+
                 { "matrix": [9, 0], "w": 2.25, "x": 9.75, "y": 4 },
                 { "matrix": [9, 2], "x": 12, "y": 4 },
                 { "matrix": [9, 4], "x": 13.75, "y": 4 },
