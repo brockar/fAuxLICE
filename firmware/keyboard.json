@@ -24,7 +24,8 @@
     },
 
     "split": {
-        "soft_serial_pin": "D0",
+        "soft_serial_pin": "D2",
+        "enabled": true,
         "matrix_pins": {
             "right": {
                 "rows": ["B5", "B4", "E6", "D7", "C6"],
