@@ -2,11 +2,11 @@
 
 An 3D printable Alice-like mechanical keyboard.
 
-![](images/outside.jpg)
+![outside](images/outside.jpg)
 
 ## Layout
 
-![](images/layout.png)
+![layout](images/layout.png)
 
 [Keyboard Layout Editor](http://www.keyboard-layout-editor.com/#/gists/7f17a55de07d88c1f975089b07f053b1)
 
@@ -38,11 +38,11 @@ A proper glue up would be probably enough for the two halves.
 
 The keyboard is wired in a 10-row, 7-column configuration.  
 We have to solder a cable between the left and right columns as shown in the picture.
-![](images/wiring-diagram.jpg)
+![wiring](images/wiring-diagram.jpg)
 
 The way to connect the rows/columns to Pro Micro are defined in `keyboard.json`:
 
-```
+```json
 "rows": ["B5", "B4", "E6", "D7", "C6", "F4", "D4", "D0", "D1", "D2"],
 "cols": ["B6", "B2", "B3", "B1", "F7", "F6", "F5"]
 ```
@@ -56,7 +56,10 @@ The halves do not lock into each other. I used a combination of glue and diode t
 ## Firmware
 
 The firmware included is for the Arduino Pro Micro board.  
-You can just flash `fauxlice_vial.hex` with [QMK-Toolbox](https://qmk.fm/toolbox) or [QMK-CLI](https://docs.qmk.fm/cli).
+You can just flash `fauxlice_vial.hex` with [QMK-Toolbox](https://qmk.fm/toolbox) or [QMK-CLI](https://docs.qmk.fm/cli).  
+
+If you want to change something, download the vial code, create a folder in `vial-qmk/keyboards/` called `fauxlice`, copy what is in `firmware` into that folder, and modify what you need.  
+Finally, while in `vial-qmk` run `make fauxlice:vial` and flash the .hex file.
 
 ## License
 
