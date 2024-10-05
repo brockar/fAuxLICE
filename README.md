@@ -71,7 +71,3 @@ This project is licensed under the MIT license. See the `LICENSE.md` for more de
 - [mnt](https://www.instagram.com/mnt.designs/)
 
 ---
-
-todo:
-
-- usbc hole down 2mm
