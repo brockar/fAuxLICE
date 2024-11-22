@@ -1,4 +1,4 @@
-# "fAuxLICE"
+# fAuxLICE
 
 An 3D printable Alice-like mechanical keyboard.
 
@@ -32,7 +32,7 @@ An 3D printable Alice-like mechanical keyboard.
 - 1× M3×20 countersunk screw
 
 The optional components are for reinforcing the top halves. They're not required.  
-A proper glue up would be probably enough for the two halves.
+A proper glue-up would probably be enough for the two halves.
 
 ## Wiring diagram
 
@@ -40,7 +40,7 @@ The keyboard is wired in a 10-row, 7-column configuration.
 We have to solder a cable between the left and right columns as shown in the picture.
 ![wiring](images/wiring-diagram.jpg)
 
-The way to connect the rows/columns to Pro Micro are defined in `keyboard.json`:
+The way to connect the rows/columns to the Pro Micro is defined in `keyboard.json`:
 
 ```json
 "rows": ["B5", "B4", "E6", "D7", "C6", "F4", "D4", "D0", "D1", "D2"],
@@ -55,8 +55,10 @@ The halves do not lock into each other. I used a combination of glue and diode t
 
 ## Firmware
 
+[firmware explain](firmware/readme.md)
+
 The firmware included is for the Arduino Pro Micro board.  
-You can just flash `fauxlice_vial.hex` with [QMK-Toolbox](https://qmk.fm/toolbox) or [QMK-CLI](https://docs.qmk.fm/cli).  
+You can just flash `fauxlice_vial.hex` with [QMK-Toolbox](https://qmk.fm/toolbox) or [QMK-CLI](https://docs.qmk.fm/cli).
 
 If you want to change something, download the vial code, create a folder in `vial-qmk/keyboards/` called `fauxlice`, copy what is in `firmware` into that folder, and modify what you need.  
 Finally, while in `vial-qmk` run `make fauxlice:vial` and flash the .hex file.
@@ -71,3 +73,7 @@ This project is licensed under the MIT license. See the `LICENSE.md` for more de
 - [mnt](https://www.instagram.com/mnt.designs/)
 
 ---
+
+todo:
+
+- [ ] Change the picture with correct layout
