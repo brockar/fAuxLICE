@@ -8,9 +8,9 @@
 
 ## Get ready
 
-Clone the [vial-qmk](https://github.com/vial-kb/vial-qmk/) repo, make a folder into it called `fauxlice` on `vial-qmk/keyboards/`and copy all from this folder to it.
+Clone the [vial-qmk](https://github.com/vial-kb/vial-qmk/) repo, create a folder called `fauxlice` in `vial-qmk/keyboards/`, and copy all files from this folder to it.
 
-Go with your terminal to `vial-qmk` folder and make the modifications that u want on `keyboards/fauxlice`.
+Navigate to the `vial-qmk` folder in your terminal and make the modifications you want in `keyboards/fauxlice`.
 
 ## Compile
 
@@ -25,7 +25,7 @@ Flashing example for this keyboard:
 See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools)
 and the [make instructions](https://docs.qmk.fm/#/getting_started_make_guide)
 for more information.
-Brand new to QMK? Start with our [Complete wbs Guide](https://docs.qmk.fm/#/newbs).
+Brand new to QMK? Start with our [Complete Newbs Guide](https://docs.qmk.fm/#/newbs).
 
 ## Bootloader
 
@@ -36,7 +36,7 @@ Enter the bootloader in 3 ways:
   (usually the top left key or Escape) and plug in the keyboard
 - **[Physical reset button](https://cdn.sparkfun.com/assets/6/d/3/4/a/523c8e23757b7fbe5f8b4584.png)**:
   Briefly press the button on the back of the PCB
-- some may have pads you must short instead
+- Some may have pads you must short instead
 
 ---
 
