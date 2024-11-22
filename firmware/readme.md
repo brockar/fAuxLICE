@@ -1,13 +1,10 @@
 # fauxlice
 
 - [fauxlice](#fauxlice)
-
+  - [Get ready](#get-ready)
+  - [Compile](#compile)
   - [Bootloader](#bootloader)
     - [Extras to Read](#extras-to-read)
-
-- Keyboard Maintainer: [brockar](https://github.com/brockar)
-- Hardware Supported: _Arduino Pro micro 32U4_
-- Hardware Availability: [Pro Micro](https://www.aliexpress.com/item/32888212119.html?spm=a2g0o.productlist.main.3.29f09l6I9l6IVu&algo_pvid=da638c9c-c142-47e2-bf8c-131e61f3c606&algo_exp_id=da638c9c-c142-47e2-bf8c-131e61f3c606-1&pdp_npi=4%40dis%21USD%214.32%213.50%21%21%214.32%213.50%21%402103080f17233088115137814e6b73%2112000029855280287%21sea%21AR%212118067180%21X&curPageLogUid=oi84iPzdVYtT&utparam-url=scene%3Asearch%7Cquery_from%3A)
 
 ## Get ready
 
