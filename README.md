@@ -1,6 +1,6 @@
 # fAuxLICE
 
-An 3D printable Alice-like mechanical keyboard.
+A 3D printable Alice-like mechanical keyboard.
 
 ![outside](images/outside.jpg)
 
