@@ -71,9 +71,3 @@ This project is licensed under the MIT license. See the `LICENSE.md` for more de
 
 - [zykrah](https://zykrah.me/)
 - [mnt](https://www.instagram.com/mnt.designs/)
-
----
-
-todo:
-
-- [ ] Change the picture with correct layout
