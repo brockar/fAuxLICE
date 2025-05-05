@@ -24,7 +24,8 @@ A 3D printable Alice-like mechanical keyboard.
 
 ### Optional components
 
-- 4× plate-mounted Costar stabilizers
+- 4× plate-mounted Costar stabilizers or
+- 4x plate-mounted Cherry Mx Spec (Durock Piano)
 - 1× M3×8 countersunk screw
 - 1× M3×10 countersunk screw
 - 1× M3×12 countersunk screw
