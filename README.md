@@ -39,7 +39,7 @@ A proper glue-up would probably be enough for the two halves.
 
 The keyboard is wired in a 10-row, 7-column configuration.  
 We have to solder a cable between the left and right columns as shown in the picture.
-![wiring](images/wiring-diagram.jpg)
+![wiring](images/wiring-diagram.png)
 
 The way to connect the rows/columns to the Pro Micro is defined in `keyboard.json`:
 
