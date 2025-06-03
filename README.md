@@ -76,5 +76,5 @@ Note: If you'll use plate-mounted stabilizers, you should add them before solder
 
 ## Special thanks to
 
-- [zykrah](https://zykrah.me/)
 - [mnt](https://www.instagram.com/mnt.designs/)
+- [zykrah](https://zykrah.me/)
