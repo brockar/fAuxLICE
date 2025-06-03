@@ -64,9 +64,15 @@ You can just flash `fauxlice_vial.hex` with [QMK-Toolbox](https://qmk.fm/toolbox
 If you want to change something, download the vial code, create a folder in `vial-qmk/keyboards/` called `fauxlice`, copy what is in `firmware` into that folder, and modify what you need.  
 Finally, while in `vial-qmk` run `make fauxlice:vial` and flash the .hex file.
 
-## License
+## Build
 
-This project is licensed under the MIT license. See the `LICENSE.md` for more details.
+1. Add mid top screws.
+2. Add switches south pole, with the hole to the bottom.
+3. Solder the diodes on the left pin (the diagram is top view, but when you're soldering, you're viewing from the bottom).
+4. Solder cable as shown on the wiring diagram, and connect the columns to the other side as shown.
+5. Now solder the PM as shown in the `keyboard.json`.
+
+Note: If you'll use plate-mounted stabilizers, you should add them before soldering the switches.
 
 ## Special thanks to
 
