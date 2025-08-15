@@ -7,7 +7,7 @@ QMK_SETTINGS = no
 COMBO_ENABLE = yes
 KEY_OVERRIDE_ENABLE = yes
 TAP_DANCE_ENABLE = yes
-MOUSEKEY_ENABLE = no
+MOUSEKEY_ENABLE = yes
 
 #########
 # RGB (is not enable by defualt)
